@@ -1,0 +1,123 @@
+:root {
+    --primary-text-color: #8F95A5;
+    --primary-title-color: #263238;
+    --secondery-title-color: #000000;
+    --primary-bg-color: #ffffff;
+    --secondery-bg-color: #F5F5F5;
+    --btn-bg-color:#263238;
+    --btn-text-color: #ffffff;
+    --logo-end-color:#939393;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    display: block;
+}
+
+body {
+    background-color: var(--primary-bg-color);
+    color: var(--primary-text-color);
+    font-family: 'Poppins';
+}
+
+.btn {
+    color: var(--btn-text-color);
+    background-color: var(--primary-title-color);
+}
+
+.nav .logo {
+    color:var(--secondery-title-color);
+    font-size: 36px;
+}
+
+.nav .logo-end {
+    color: var(--logo-end-color);
+}
+
+.nav .nav-link {
+    color:var(--primary-title-color);
+    font-size: 20px;
+}
+
+.header .btn {
+    color:var(--secondery-title-color);
+    background-color:var(--primary-bg-color);
+    font-size: 20px;
+}
+
+.section-hero .title-hero {
+    color:var(--secondery-title-color);
+    font-size: 64px;
+}
+
+.section .text-hero {
+    font-size: 24px;
+}
+
+.section .title-section {
+    color:var(--secondery-title-color);
+    font-size: 48px;
+    text-align: center;
+}
+
+.section .title-content {
+    color:var(--primary-title-color);
+    font-size: 30px;
+}
+
+.list-skills {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+.list-skills__wrapper-first {
+    margin-right: 30px;
+}
+
+.list-skills__item {
+    width: 426px;
+    background-color: #F5F5F5;
+    border-radius: 10px;
+}
+
+.list-skills__item-1 {
+    height: 100%;
+}
+
+.list-skills__item-2 {
+    margin-right: 30px;
+}
+
+.list-skills__item-end {
+   width: 882px;
+}
+
+.list-skills__wrapper-one {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.btn-skills {
+    width: 218px;
+    height: 60px;
+    background-color: #263238;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+.container {
+    width: 1378px;
+    padding: 0 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
